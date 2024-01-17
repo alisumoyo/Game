@@ -1,0 +1,48 @@
+.fullcontainer{
+    border: 2px solid rgb(76, 82, 67);
+    background-color: aliceblue;
+    /* liner */
+    /* background-image: url(./img/111.png) 100% 100%;
+    position: relative;
+     */
+    height: 95vh;
+    /* background: url(./img/111.png) repeat no-repeat; background-size: cover ; position: static; */
+}
+
+#h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+#p{
+    display: flex;
+    justify-content: center;
+    color: #0000009e
+}
+
+#guessInput{
+    margin-left: 42%;
+    width: 225px;
+    height: 4vh;
+    border-radius: 5px;
+}
+
+#btn{
+    margin-left: 46%;
+    width: 222px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    width: 110px;
+    background-color: #9795958f;
+    margin-top: 6px;
+    border-radius: 8px;
+}
+
+#message{
+    display: flex;
+    justify-content: center;
+}
